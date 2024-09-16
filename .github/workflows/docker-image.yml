@@ -29,7 +29,7 @@ jobs:
       run: |
         docker buildx build \
           --file Dockerfile \
-          --tag junaideee11/PythonForFun:latest \
-          --tag junaideee11/PythonForFun:$(date +%s) \
+          --tag junaideee11/pythonforfun:latest \
+          --tag junaideee11/pythonforfun:$(date +%s) \
           --push \
           .
